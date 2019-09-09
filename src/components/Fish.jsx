@@ -13,12 +13,12 @@ class Fish extends React.Component {
                     <span className="price">{details.price}</span>
                 </h3>
                 <p>{details.desc}</p>
-                {/* <button
+                <button
                     disabled={!isAvailable}
                     onClick={() => this.props.addToOrder(this.props.index)}
                 >
                     {isAvailable ? "Add To Order" : "Sold Out!"}
-                </button> */}
+                </button>
             </li>
         )
     }
