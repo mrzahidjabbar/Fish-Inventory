@@ -20,7 +20,7 @@ class App extends React.Component {
 
     //func for updating fish state
     addFish = (fish) => {
-        console.log('ahhahhahh')
+
         //create a copy of current state
         const fishes = { ...this.state.fishes }
         //create a timestamp
@@ -38,7 +38,7 @@ class App extends React.Component {
 
     //func for updating order state
     loadSamples() {
-        console.log('hahahhaha');
+
         this.setState({
             fishes: samplefishes,
         })
