@@ -1,8 +1,8 @@
-import Rebase from 're-base'
+import Rebase from "re-base";
 
 const base = Rebase.createClass({
-    apiKey: "AIzaSyA1bBQQw34iYCsCfEAxY0W9M-Z4PeiSQBI",
-    authDomain: "fish-inventory-696b2.firebaseapp.com",
-    databaseURL: "https://fish-inventory-696b2.firebaseio.com",
+  apiKey: "Enter you API here",
+  authDomain: "Enter your authDomain here",
+  databaseURL: "Enter databaseURL here"
 });
-export default base; 
+export default base;
